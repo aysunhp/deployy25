@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- font awsome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- my css -->
+    <link rel="stylesheet" href="./assets/index.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="" id="all-products">All products</a></li>
+        <li><a href="" id="man">Men</a></li>
+        <li><a href="" id="woman">Women</a></li>
+        <li><a href="" id="accs">Accessories</a></li>
+        <li><a href="" id="electronics">Electronics</a></li>
+        <li>
+          <select name="filter" id="filter">
+            <option value="" selected hidden>Filter</option>
+            <option id="price-high" value="high-price">Price high</option>
+            <option id="price-low" value="low-price">Price low</option>
+            <option id="rate-high" value="high-rate">Rating high</option>
+            <option id="rate-low" value="low-rate">Rating low</option>
+          </select>
+        </li>
+      </ul>
+    </nav>
+    <a href="./basket.html" class="btn btn-outline-light toBasketBtn">
+      <i
+        class="fa-solid fa-cart-shopping"
+        style="font-size: 29px; margin-top: 5px"
+      ></i>
+    </a>
+    <section>
+      <div class="container"></div>
+    </section>
+    <!-- sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- my script -->
+    <script src="./assets/index.js"></script>
+  </body>
+</html>
